@@ -142,6 +142,6 @@ class Generate_Dataset:
             self.h5_file['video_{}'.format(video_idx+1)]['n_frame_per_seg'] = n_frame_per_seg
 
 if __name__ == "__main__":
-    gen = Generate_Dataset('/data/video_summarization/dataset_SumMe/videos/Air_Force_One.mp4', 'summe_dataset.h5')
+    gen = Generate_Dataset('/kaggle/working/test02_/Could a DAO Build the Next Great City  Scott Fitsimones  TED.3gpp', 'summe_dataset.h5')
     gen.generate_dataset()
     gen.h5_file.close()
