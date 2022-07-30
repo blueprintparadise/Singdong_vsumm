@@ -9,7 +9,7 @@
 """
 import os, sys
 sys.path.append('../')
-from networks.CNN import ResNet
+from networks import ResNet
 from utils.KTS.cpd_auto import cpd_auto
 from tqdm import tqdm
 import math
